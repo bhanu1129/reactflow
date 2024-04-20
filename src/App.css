@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+.main-app {
+  height: 100vh;
+  width: 100vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-update {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 5px;
+  background: white;
+}
+.text-update label {
+  font-size: 20px;
+  font-weight: 500;
+}
+.text-update hr{
+  color:black;
+  background-color:black;
+  margin: 20px 0;
+}
+.text-update input{
+  padding:10px;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.text-update button{
+  border: 1.5px solid black;
+  cursor: pointer;
+  background-color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.custom-node{
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.delete-btn{
+  color:red;
+  cursor: pointer;
+  font-weight: bold;
+}
+.create-btn{
+  background: rgb(0, 106, 255);
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
